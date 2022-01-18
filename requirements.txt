@@ -1,1 +1,4 @@
+-f https://download.pytorch.org/whl/torch_stable.html
 rembg
+torch==1.9.1+cpu
+torchvision==0.10.1+cpu
