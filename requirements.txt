@@ -2,4 +2,4 @@
 rembg
 torch==1.9.1+cpu
 torchvision==0.10.1+cpu
-numpy==1.22.0
+numpy==1.21.0
