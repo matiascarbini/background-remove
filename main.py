@@ -1,8 +1,9 @@
 from flask import Flask
 from functions.backgroundRemove import backgroundRemove_api
 
-from os import mkdir
-mkdir("tmp")
+import os
+if os.path.exists('./tmp') == False:
+  os.mkdir("./tmp")
 
 app = Flask(__name__)
 
