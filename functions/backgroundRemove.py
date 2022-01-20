@@ -40,4 +40,4 @@ def backgroundRemove():
   
 @backgroundRemove_api.route('/image/<path:filename>')
 def protected(filename):    
-	return send_from_directory('tmp',filename, as_attachment=True)
+	return send_from_directory('tmp',filename)
