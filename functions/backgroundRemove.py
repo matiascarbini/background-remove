@@ -32,7 +32,7 @@ def backgroundRemove():
   result = remove(f, alpha_matting=True)
   img = Image.open(io.BytesIO(result)).convert("RGBA")
   
-  output_image = 'tmp/output_' + strRandom + '.png'
+  output_image = 'output_' + strRandom + '.png'
   img.save(output_image)
       
   return request.host_url + 'image/' + output_image  
