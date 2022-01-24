@@ -11,7 +11,7 @@ app.register_blueprint(backgroundRemove_api)
 
 @app.route('/')
 def getInit():  
-  return 'ELIMINAR FONDO DE IMÁENES'
+  return 'PROCESAMIENTO DE IMAGENES'
 
 if __name__ == '__main__':
   app.run(host='0.0.0.0', debug=False, port=5000)

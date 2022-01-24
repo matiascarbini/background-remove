@@ -11,7 +11,7 @@ from flask import Blueprint, jsonify, request, send_file, send_from_directory
 
 backgroundRemove_api = Blueprint('backgroundRemove_api', __name__)
 
-@backgroundRemove_api.route('/background-remove', methods=["POST"])
+@backgroundRemove_api.route('/background/remove', methods=["POST"])
 def backgroundRemove():    
   url_image = request.json["image"]
     
